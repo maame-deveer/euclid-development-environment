@@ -5,7 +5,11 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {}
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers/features/python:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/ebaskoro/devcontainer-features/scala:1": {},
+		"ghcr.io/eitsupi/devcontainer-features/jq-likes:2": {}
 	}
 
 	// Use 'mounts' to make the cargo cache persistent in a Docker Volume.
